@@ -27,6 +27,13 @@
       </a>
     {%- endif -%}
 
+    {%- if _author.solvedac -%}
+      <li title="{{ _locale_string_follow | replace: '[NAME]', 'solved.ac' }}">
+        <a class="button button--circle solvedac-button" itemprop="sameAs" href="https://solved.ac/profile/{{ _author.solvedac }}" target="_blank">
+          <div class="icon">{%- include svg/icon/social/solvedac.svg -%}</div>
+        </a>
+      </li>
+    {%- endif -%}
 
     {%- if _author.facebook -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'Facebook' }}">
