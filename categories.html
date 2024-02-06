@@ -1,0 +1,24 @@
+---
+layout: page
+title: 카테고리
+---
+
+<ul class="category-list">
+    {% for category in site.data.navigation.category %}
+    <li>
+        <h4>{{category}}</h4>
+        <ul>
+            {% assign categories = category | join: "-" %}
+            {% for post in site.posts %}
+                {% assign postCategories = post.categories | join: "-" %}
+                {% if categories == postCategories %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endif %}
+                
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

@@ -4,8 +4,20 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
 
 }
-.solvedac-button{
-    background-color:   #17ce3a;
+.category-list{
+    list-style: none;
 }
-
+.category-list>li>ul{
+    margin-left: 1.5vw
+}
+.category-list a{
+    color: $text-color-1;
+}
+.category-list a:hover{
+    color: $main-color-1 !important;
+}
+.article__header>header>span{
+    margin-left: 1vw;
+    font-size: 1.2em;
+}
 /* end custom scss snippet */

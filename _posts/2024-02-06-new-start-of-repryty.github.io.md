@@ -2,7 +2,7 @@
 key: jekyll-text-theme
 title: 'repryty.github.io의 새로운 시작'
 excerpt: 'GitHub Pages 시작'
-tags: [Others]
+categories: Others
 ---
 repryty.github.io를 지금부터 이전과 다른 일반적인 블로그로 만들었습니다.
 
