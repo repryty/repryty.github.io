@@ -175,7 +175,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : G-XKJL4Y99GW# Google Analytics id for the site
+    tracking_id : G-XKJL4Y99GW # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
