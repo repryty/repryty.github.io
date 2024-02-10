@@ -61,3 +61,4 @@ key: page-about
 4. 코틀린, C언어 제대로 응용할수 있을정도로 배우기
 5. PCB 설계 배우기
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=repryty)](https://solved.ac/repryty/)
