@@ -20,4 +20,9 @@ body{
     margin-left: 1vw;
     font-size: 1.2em;
 }
+.header_fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
 /* end custom scss snippet */
