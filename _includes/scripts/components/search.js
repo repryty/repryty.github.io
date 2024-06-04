@@ -42,11 +42,11 @@
       modalVisible ? searchModal.hide() : searchModal.show();
     });
     // Char Code: 83  S, 191 /
-    $(window).on('keyup', function(e) {
-      if (!modalVisible && !window.isFormElement(e.target || e.srcElement) && (e.which === 83 || e.which === 191)) {
-        modalVisible || searchModal.show();
-      }
-    });
+    // $(window).on('keyup', function(e) {
+    //   if (!modalVisible && !window.isFormElement(e.target || e.srcElement) && (e.which === 83 || e.which === 191)) {
+    //     modalVisible || searchModal.show();
+    //   }
+    // });
 
     if (useDefaultSearchBox) {
       $searchBox = $('.js-search-box');
