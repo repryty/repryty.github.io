@@ -25,9 +25,6 @@ titles:
   # @end locale config
 key: page-about
 ---
-
-![Image](assets\images\logo\REEP_About.png)
-
 저늕아
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=repryty)](https://solved.ac/repryty/)
