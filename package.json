@@ -1,6 +1,7 @@
 {
   "name": "jekyll-text-theme",
   "version": "2.2.6",
+  "type": "module",
   "author": "Tian Qi",
   "license": "MIT",
   "keywords": [
