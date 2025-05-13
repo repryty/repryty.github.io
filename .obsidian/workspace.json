@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-03-31-1.md",
+                "file": "_posts/2025-05-13-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-31-1"
+              "title": "2025-05-13-1"
             }
           }
         ]
@@ -178,9 +178,10 @@
   },
   "active": "a1afb5862106650d",
   "lastOpenFiles": [
+    "_posts/2025-03-31-1.md",
+    "_posts/2025-05-13-1.md",
     "assets/posts/Pasted image 20250331140839.png",
     "obsidian_template.md",
-    "_posts/2025-03-31-1.md",
     "_posts/2024-07-17-1.md"
   ]
 }
